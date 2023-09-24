@@ -71,5 +71,5 @@ volumes:
 ## Add writing permissions
 
 ```bash
-chmod -R o+w <wordpress_project_directory>
+sudo chmod -R o+w <wordpress_project_directory>
 ```
