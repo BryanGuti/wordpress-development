@@ -67,3 +67,9 @@ volumes:
   mysql: {}
 
 ```
+
+## Add writing permissions
+
+```bash
+chmod -R o+w <wordpress_project_directory>
+```
