@@ -2,9 +2,9 @@
 
 Set up your Docker development environment
 
-## Dockerfile
+## compose.yaml
 
-```compose.yaml
+```yaml
 version: "3"
 
 services:
