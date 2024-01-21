@@ -2,7 +2,7 @@
 
 Set up your Docker development environment
 
-## compose.yaml
+## docker-compose.yaml
 
 ```yaml
 version: "3"
@@ -66,6 +66,11 @@ secrets:
 volumes:
   mysql: {}
 
+```
+
+## Build containers
+```bash
+docker compose up -d
 ```
 
 ## Add writing permissions
