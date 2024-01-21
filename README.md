@@ -4,7 +4,7 @@ Set up your Docker development environment
 
 ## Dockerfile
 
-```Dockerfile
+```compose.yaml
 version: "3"
 
 services:
